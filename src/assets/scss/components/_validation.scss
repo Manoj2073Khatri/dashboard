@@ -1,0 +1,18 @@
+.validation-summary-valid {
+    display: none;
+}
+
+.validation-summary-errors {
+    ul {
+        margin-bottom: 0;
+    }
+}
+
+.input-validation-error {
+    @extend .is-invalid;
+}
+
+.field-validation-error {
+    display: block;
+    @extend .invalid-feedback;
+}

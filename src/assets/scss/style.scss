@@ -1,0 +1,25 @@
+
+// 2. Include any default variable overrides here
+@import "abstracts/variables";
+
+@import "../../../node_modules/bootstrap/scss/bootstrap";
+
+// components
+@import "components/dropdown";
+@import "components/header";
+@import "components/sidebar";
+@import "components/validation";
+
+
+// pages
+@import "pages/signUp";
+
+// layout
+@import "layout/body";
+@import "layout/layout"; 
+
+
+// vendors
+@import "vendors/dataTables";
+@import "vendors/toastr";
+@import "vendors/dropzone";
